@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.8;
@@ -36,7 +36,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "PT Serif", Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, serif;
   font-weight: 300;
   margin: 0 0 30px 0; }
 
@@ -68,6 +68,7 @@ figure {
   background: #2c98f0; }
 
 #colorlib-page {
+  color: ffff;
   width: 100%;
   overflow: hidden;
   position: relative; }
@@ -80,7 +81,8 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  /*background: #f2f3f7;*/
+  background: #fff;
   -webkit-transition: 0.25s;
   -o-transition: 0.25s;
   transition: 0.25s; }
@@ -94,13 +96,13 @@ figure {
       transform: translateX(-300px);
       padding-top: 4em; } }
   #colorlib-aside .author-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     margin-bottom: 30px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
     border-radius: 50%; }
   #colorlib-aside .position {
     display: block;
@@ -208,8 +210,10 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
-          padding: 4px; }
+          /*color: rgba(255, 255, 255, 0.3);*/
+          color: #000;
+          padding: 4px;
+          font-size: 25px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
