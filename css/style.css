@@ -32,7 +32,7 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -112,7 +112,7 @@ figure {
   #colorlib-aside #colorlib-logo {
     text-align: center;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
