@@ -469,7 +469,10 @@ body.offcanvas {
   background: #d2e8fb;
   margin-bottom: 1em; }
   .hire h2 {
-    line-height: 1.5; }
+    line-height: 1.5; 
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 27px;
+    text-align: center}
   .hire .btn-hire {
     color: #000;
     text-transform: uppercase;
