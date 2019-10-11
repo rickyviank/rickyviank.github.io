@@ -465,11 +465,15 @@ body.offcanvas {
 }
 
 .hire {
-  padding: 1em;
+  padding: 0em;
   background: #d2e8fb;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
   margin-bottom: 1em; }
   .hire h2 {
-    line-height: 1.5; 
+    line-height:2; 
+    /*font-weight: bold;*/
     font-family: "Roboto", Helvetica, sans-serif;
     font-size: 27px;
     text-align: center}
